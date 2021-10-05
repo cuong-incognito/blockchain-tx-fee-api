@@ -1,0 +1,6 @@
+{
+    "apiport": 9001,
+    "init_bitcoin_fee": 6,
+    "bitcoin_fee_refresh_interval": 15,
+    "webhook_url": ""
+}
