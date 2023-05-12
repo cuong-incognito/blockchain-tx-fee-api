@@ -58,7 +58,7 @@ func initBitcoinService() {
 					sendSlackNotification(msg, serviceCfg.WebHookURL)
 					return
 				}
-				lastBitcoinFee = float64(responseBody.MediumFee) / 1024
+				lastBitcoinFee = float64(responseBody.LowFee) / 1024
 				bitcoinFee = lastBitcoinFee
 			}()
 		}
